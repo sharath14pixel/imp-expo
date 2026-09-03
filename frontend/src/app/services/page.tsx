@@ -89,7 +89,7 @@ export default function ServicesPage() {
             Comprehensive Import & Export <span className="bg-gradient-to-r from-[#F5804B] to-[#B4A7F0] bg-clip-text text-transparent">Solutions</span>
           </h1>
           <p className="text-base md:text-lg text-[#5B6272] max-w-3xl leading-relaxed">
-            From single LCL consolidations to complex heavy-lift project charters and duty-deferred bonded warehousing, Vanguard provides licensed precision across all trade vectors.
+            From single LCL consolidations to complex heavy-lift project charters and duty-deferred bonded warehousing, Tenar provides licensed precision across all trade vectors.
           </p>
         </div>
 

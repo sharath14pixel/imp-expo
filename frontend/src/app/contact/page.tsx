@@ -82,7 +82,7 @@ export default function ContactPage() {
     },
     {
       q: "Do you handle dangerous goods (HAZMAT) and pharma cold-chain?",
-      a: "Yes. Vanguard maintains certified IATA DG Category 6 specialists, IMDG hazardous tank fleets, and GDP-certified temperature-monitored hubs (-80°C to +25°C) with live IoT thermal telemetry."
+      a: "Yes. Tenar maintains certified IATA DG Category 6 specialists, IMDG hazardous tank fleets, and GDP-certified temperature-monitored hubs (-80°C to +25°C) with live IoT thermal telemetry."
     }
   ];
 

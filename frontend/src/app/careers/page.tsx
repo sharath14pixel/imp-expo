@@ -31,7 +31,7 @@ export default function CareersPage() {
         {/* Page Header */}
         <div className="mb-14">
           <span className="text-xs font-extrabold uppercase tracking-widest text-[#E86A3C] block mb-2">
-            JOIN VANGUARD GLOBAL LOGISTICS
+            JOIN TENAR GLOBAL LOGISTICS
           </span>
           <h1 className="text-4xl md:text-5xl font-extrabold text-[#101828] leading-tight tracking-tight mb-4">
             Shape the Future of International <span className="bg-gradient-to-r from-[#F5804B] to-[#B4A7F0] bg-clip-text text-transparent">Commerce</span>

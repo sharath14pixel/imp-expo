@@ -85,7 +85,7 @@ export const Navbar = () => {
             </div>
             <div>
               <span className="text-lg font-extrabold text-[#101828] tracking-tight block leading-tight">
-                VANGUARD
+                TENAR
               </span>
               <span className="text-[10px] font-extrabold uppercase tracking-widest text-[#E86A3C] block">
                 GLOBAL LOGISTICS

@@ -40,7 +40,7 @@ export const INDUSTRIES_DATA: IndustryItem[] = [
     name: "Energy, Mining & Heavy Industry",
     eyebrow: "REMOTE OPERATIONS",
     tagline: "Rigging, heavy-lift transportation, and dangerous goods management for remote site deployments.",
-    description: "Extracting resources and generating power requires transporting bulky infrastructure into demanding environments. Vanguard manages supply bases, offshore vessel charters, and hazardous chemical transport across South America, Africa, and Australia.",
+    description: "Extracting resources and generating power requires transporting bulky infrastructure into demanding environments. Tenar manages supply bases, offshore vessel charters, and hazardous chemical transport across South America, Africa, and Australia.",
     iconName: "Zap",
     complianceStandards: ["IMDG Hazardous Code", "API Spec Q1 Compliant", "ISO 14001 Environmental"],
     keySolutions: [
@@ -124,7 +124,7 @@ export const INDUSTRIES_DATA: IndustryItem[] = [
     name: "Chemicals & Dangerous Goods",
     eyebrow: "HAZMAT CERTIFIED",
     tagline: "ISO tank container fleet management, hazardous material storage, and safety compliance.",
-    description: "Handling chemical trade requires specialized equipment and regulatory precision. Vanguard operates ISO tank logistics fleets with safety-inspected valves, heating elements, and certified Hazmat documentation officers.",
+    description: "Handling chemical trade requires specialized equipment and regulatory precision. Tenar operates ISO tank logistics fleets with safety-inspected valves, heating elements, and certified Hazmat documentation officers.",
     iconName: "FlaskConical",
     complianceStandards: ["SQAS Assessed", "ADR / RID Trained", "Responsible Care® Member"],
     keySolutions: [

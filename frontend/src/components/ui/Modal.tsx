@@ -62,7 +62,7 @@ export const Modal: React.FC<ModalProps> = ({
         <div className="flex items-start justify-between pb-4 mb-4 border-b border-[#E5E7EB]">
           <div>
             <span className="text-[11px] font-extrabold uppercase tracking-widest text-[#E86A3C] block mb-1">
-              VANGUARD LOGISTICS HUB
+              TENAR LOGISTICS HUB
             </span>
             <h3 className="text-xl md:text-2xl font-bold text-[#101828]">
               {title}

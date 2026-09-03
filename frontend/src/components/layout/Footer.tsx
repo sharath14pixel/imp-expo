@@ -29,7 +29,7 @@ export const Footer = () => {
               </div>
               <div>
                 <span className="text-xl font-extrabold text-white tracking-tight block leading-tight">
-                  VANGUARD
+                  TENAR
                 </span>
                 <span className="text-[10px] font-extrabold uppercase tracking-widest text-[#E86A3C] block">
                   GLOBAL LOGISTICS
@@ -155,7 +155,7 @@ export const Footer = () => {
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-[#E86A3C] shrink-0" />
-                <span>rotterdam.hq@vanguard-logistics.com</span>
+                <span>rotterdam.hq@tenar-logistics.com</span>
               </li>
             </ul>
 
@@ -194,7 +194,7 @@ export const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-gray-400">
-          <p>© {new Date().getFullYear()} Vanguard Global Logistics B.V. All Rights Reserved. International Freight Forwarding Standards Compliant.</p>
+          <p>© {new Date().getFullYear()} Tenar Global Logistics B.V. All Rights Reserved. International Freight Forwarding Standards Compliant.</p>
           <div className="flex items-center gap-6">
             <span className="hover:text-white transition-colors cursor-pointer">Terms of Carriage</span>
             <span className="hover:text-white transition-colors cursor-pointer">Privacy & GDPR</span>

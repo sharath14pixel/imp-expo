@@ -74,7 +74,7 @@ export const WhyChooseUs = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <SectionHeading
-          eyebrow="THE VANGUARD ADVANTAGE"
+          eyebrow="THE TENAR ADVANTAGE"
           title="Engineered for High-Consequence Freight Reliability"
           highlightWord="Reliability"
           description="Combining deep regulatory trade expertise with global carrier allocations and real-time cargo telemetry."

@@ -64,7 +64,7 @@ export const CAREERS_DATA: CareerItem[] = [
     responsibilities: [
       "Analyze client global supply chain networks and propose multimodal cost optimization strategies.",
       "Build predictive transit models utilizing vessel telemetry and port terminal AIS feeds.",
-      "Integrate client ERPs (SAP/Oracle) with Vanguard's API supply chain visibility engine.",
+      "Integrate client ERPs (SAP/Oracle) with Tenar's API supply chain visibility engine.",
       "Present quarterly supply chain optimization reviews to enterprise executive teams."
     ],
     requirements: [

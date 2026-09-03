@@ -27,7 +27,7 @@ export default function GlobalNetworkPage() {
   const currentLaneInfo = tradeLanesMap[currentLaneKey] || {
     days: "18-22 Days",
     frequency: "4x Weekly",
-    carriers: "Vanguard Global Freight Network",
+    carriers: "Tenar Global Freight Network",
     mode: "Multimodal Ocean / Air",
   };
 

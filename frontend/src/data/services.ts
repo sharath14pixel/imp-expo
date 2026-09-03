@@ -41,7 +41,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     title: "Air Freight Forwarding",
     eyebrow: "TIME-CRITICAL TRANSIT",
     shortDesc: "Express charter and scheduled maindeck cargo handling for high-value and temperature-sensitive shipments.",
-    fullDesc: "When speed is paramount, Vanguard provides direct airline block space agreements (BSAs) on major cargo carriers. From Next Flight Out (NFO) express service to full aircraft charters, we ensure critical cargo moves without transit delays.",
+    fullDesc: "When speed is paramount, Tenar provides direct airline block space agreements (BSAs) on major cargo carriers. From Next Flight Out (NFO) express service to full aircraft charters, we ensure critical cargo moves without transit delays.",
     iconName: "Plane",
     highlights: [
       "Fixed allocations on scheduled cargo flight routes",
@@ -63,7 +63,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     title: "Customs Clearance & Trade Compliance",
     eyebrow: "REGULATORY PRECISION",
     shortDesc: "Licensed customs brokers executing HTS classification, duty drawback, and AEO/CTPAT regulatory compliance.",
-    fullDesc: "Navigating international tariffs, embargoes, and customs regulations requires local expertise. Vanguard's licensed in-house customs brokers manage complex entry documentation, tariff classifications, and valuation compliance to keep your cargo moving legally and efficiently.",
+    fullDesc: "Navigating international tariffs, embargoes, and customs regulations requires local expertise. Tenar's licensed in-house customs brokers manage complex entry documentation, tariff classifications, and valuation compliance to keep your cargo moving legally and efficiently.",
     iconName: "FileCheck",
     highlights: [
       "Automated EDI customs filing directly with national revenue agencies",
@@ -129,7 +129,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     title: "Project Cargo & Heavy Lift",
     eyebrow: "INDUSTRIAL INFRASTRUCTURE",
     shortDesc: "Specialized movement of oversized machinery, energy equipment, and industrial infrastructure components.",
-    fullDesc: "From wind turbine blades to oil refinery modules, Vanguard's Project Logistics division handles high-complexity cargo movements requiring route surveys, heavy-haul permits, tug and barge chartering, and on-site engineering supervision.",
+    fullDesc: "From wind turbine blades to oil refinery modules, Tenar's Project Logistics division handles high-complexity cargo movements requiring route surveys, heavy-haul permits, tug and barge chartering, and on-site engineering supervision.",
     iconName: "Boxes",
     highlights: [
       "On-site route feasibility surveys and bridge load analyses",

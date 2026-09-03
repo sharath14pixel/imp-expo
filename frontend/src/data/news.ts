@@ -31,7 +31,7 @@ export const NEWS_DATA: PostItem[] = [
     content: [
       "The ongoing structural realignment of transpacific and Asia-Europe shipping lanes has rewritten ocean carrier schedule reliability. Vessel diversions around southern Africa continue to add 10 to 14 sailing days to typical Asia-to-Rotterdam routes, absorbing approximately 9% of global container fleet capacity.",
       "Shippers who rely strictly on spot-market bookings face unprecedented freight rate volatility and container roll-overs at transshipment hubs like Singapore and Salalah. To safeguard supply chain velocity, logistics directors must implement dual-corridor contracts.",
-      "Vanguard's Ocean Trade desk recommends securing 60% of volume under indexed fixed-tier agreements, while reserving 40% for flexible intermodal sea-air routes via Dubai and Riyadh to meet critical production schedules."
+      "Tenar's Ocean Trade desk recommends securing 60% of volume under indexed fixed-tier agreements, while reserving 40% for flexible intermodal sea-air routes via Dubai and Riyadh to meet critical production schedules."
     ],
     keyTakeaways: [
       "Cape of Good Hope routing adds 12 days average transit for Asia-Europe corridors.",
@@ -55,7 +55,7 @@ export const NEWS_DATA: PostItem[] = [
     content: [
       "As the European Union enforces mandatory CBAM carbon reporting standards for importers of primary industrial goods, non-EU suppliers must provide verified installation-level greenhouse gas data or face severe customs entry penalties.",
       "The transition from default carbon intensity benchmarks to actual verified embedded emissions calculations requires direct integration between origin manufacturing ERPs and destination customs clearance platforms.",
-      "Vanguard's automated Customs EDI gateway now calculates embedded direct and indirect emissions at the line-item level, generating audit-ready CBAM quarterly declarations automatically."
+      "Tenar's automated Customs EDI gateway now calculates embedded direct and indirect emissions at the line-item level, generating audit-ready CBAM quarterly declarations automatically."
     ],
     keyTakeaways: [
       "Financial penalties apply for inaccurate default carbon factor submissions.",
@@ -79,7 +79,7 @@ export const NEWS_DATA: PostItem[] = [
     content: [
       "Air cargo ton-kilometers (CTKs) grew 8.4% year-over-year, driven by accelerated shipments of high-density microprocessors and server rack components from Taiwan and South Korea into North American assembly plants.",
       "Belly cargo capacity on passenger aircraft remains high, but maindeck heavy-freighter space (Boeing 777F & 747-8F) has reached 94% load factors on primary transpacific vectors.",
-      "Vanguard has added 14 weekly dedicated freighter charters between Taipei, Shanghai, and Chicago O'Hare to guarantee space block availability for contract electronics customers."
+      "Tenar has added 14 weekly dedicated freighter charters between Taipei, Shanghai, and Chicago O'Hare to guarantee space block availability for contract electronics customers."
     ],
     keyTakeaways: [
       "Transpacific air cargo rates saw an 11% increase month-over-month.",
@@ -126,7 +126,7 @@ export const NEWS_DATA: PostItem[] = [
     summary: "Evaluating B100 biofuel ocean carrier options, mass-balance carbon insetting certificates, and Scope 3 emissions reporting standards for corporate logistics ESG goals.",
     content: [
       "Corporate ESG commitments are shifting from voluntary marketing pledges to strict audited compliance. Ocean cargo accounts for nearly 3% of global greenhouse emissions, prompting major container lines to introduce green methanol and bio-LNG vessel operations.",
-      "Vanguard's Sustainable Freight program enables cargo owners to replace fossil bunker fuels with second-generation waste-derived biofuel via verified Book & Claim insetting schemes.",
+      "Tenar's Sustainable Freight program enables cargo owners to replace fossil bunker fuels with second-generation waste-derived biofuel via verified Book & Claim insetting schemes.",
       "Participating clients receive ISO 14064-certified carbon reduction statements suitable for inclusion in formal annual corporate ESG filings."
     ],
     keyTakeaways: [

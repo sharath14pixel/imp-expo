@@ -11,7 +11,7 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Vanguard Logistics | Global Import & Export Solutions",
+  title: "Tenar Logistics | Global Import & Export Solutions",
   description: "Premier international import and export logistics, air and ocean freight forwarding, bonded warehousing, and customs compliance services worldwide.",
   keywords: ["import export", "freight forwarding", "customs clearance", "global logistics", "bonded warehousing", "supply chain solutions", "air freight", "ocean freight"],
 };

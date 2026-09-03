@@ -26,7 +26,7 @@ export const Testimonials = () => {
           eyebrow="CLIENT CASE VERIFICATIONS"
           title="Trusted by Fortune 500 Freight Directors"
           highlightWord="Trusted"
-          description="Read how enterprise importers and exporters rely on Vanguard for zero-detention customs clearance and critical cargo velocity."
+          description="Read how enterprise importers and exporters rely on Tenar for zero-detention customs clearance and critical cargo velocity."
         />
 
         {/* Carousel Card Outer Container */}

@@ -13,7 +13,7 @@ export interface TestimonialItem {
 export const TESTIMONIALS_DATA: TestimonialItem[] = [
   {
     id: "auto-parts-corp",
-    quote: "Vanguard transformed our European component supply pipeline. Their pre-clearance customs filing eliminated our port dwell time completely, keeping our assembly lines operating at peak velocity.",
+    quote: "Tenar transformed our European component supply pipeline. Their pre-clearance customs filing eliminated our port dwell time completely, keeping our assembly lines operating at peak velocity.",
     author: "Dietmar Weber",
     role: "VP of Global Supply Chain",
     company: "Continental Auto Components",
@@ -24,7 +24,7 @@ export const TESTIMONIALS_DATA: TestimonialItem[] = [
   },
   {
     id: "biopharma-intl",
-    quote: "Shipping temperature-sensitive biological therapeutics requires absolute precision. Vanguard's GDP-certified air charter network achieved 100% thermal compliance across all transpacific lanes.",
+    quote: "Shipping temperature-sensitive biological therapeutics requires absolute precision. Tenar's GDP-certified air charter network achieved 100% thermal compliance across all transpacific lanes.",
     author: "Dr. Aris Thorne",
     role: "Director of Cold Chain Logistics",
     company: "Nexus BioPharma Global",
@@ -35,7 +35,7 @@ export const TESTIMONIALS_DATA: TestimonialItem[] = [
   },
   {
     id: "solartech-energy",
-    quote: "Handling 48,000 tons of oversized photovoltaic infrastructure across remote South American desert sites was seamlessly executed by Vanguard's Heavy Lift Project Cargo team.",
+    quote: "Handling 48,000 tons of oversized photovoltaic infrastructure across remote South American desert sites was seamlessly executed by Tenar's Heavy Lift Project Cargo team.",
     author: "Camila Morales",
     role: "Head of Infrastructure Procurement",
     company: "Andes Solar Energy Ltd",
@@ -46,7 +46,7 @@ export const TESTIMONIALS_DATA: TestimonialItem[] = [
   },
   {
     id: "transcontinental-machinery",
-    quote: "Utilizing Vanguard's Type A customs-bonded warehousing in Rotterdam allowed us to defer $3.8M in import duties during a volatile market shift, drastically boosting liquidity.",
+    quote: "Utilizing Tenar's Type A customs-bonded warehousing in Rotterdam allowed us to defer $3.8M in import duties during a volatile market shift, drastically boosting liquidity.",
     author: "Jan-Willem Smits",
     role: "Chief Financial Officer",
     company: "Hollands Heavy Machinery BV",
@@ -57,7 +57,7 @@ export const TESTIMONIALS_DATA: TestimonialItem[] = [
   },
   {
     id: "apex-electronics",
-    quote: "During peak season air cargo congestion, Vanguard's dedicated space block allocations were the only reason our new semiconductor launch reached retail shelves on time.",
+    quote: "During peak season air cargo congestion, Tenar's dedicated space block allocations were the only reason our new semiconductor launch reached retail shelves on time.",
     author: "Sarah Lin",
     role: "Global Procurement Director",
     company: "Apex Micro Systems",

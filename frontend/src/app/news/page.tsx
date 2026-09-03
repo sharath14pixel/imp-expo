@@ -35,7 +35,7 @@ export default function NewsPage() {
             International Freight & Tariff <span className="bg-gradient-to-r from-[#F5804B] to-[#B4A7F0] bg-clip-text text-transparent">Insights</span>
           </h1>
           <p className="text-base md:text-lg text-[#5B6272] max-w-3xl leading-relaxed">
-            Market intelligence, HTS customs regulation updates, EU CBAM carbon compliance, and ocean carrier capacity forecasts authored by Vanguard trade specialists.
+            Market intelligence, HTS customs regulation updates, EU CBAM carbon compliance, and ocean carrier capacity forecasts authored by Tenar trade specialists.
           </p>
         </div>
 

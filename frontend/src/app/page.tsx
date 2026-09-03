@@ -31,7 +31,7 @@ export default function HomePage() {
                 eyebrow="GLOBAL TRADE INFRASTRUCTURE"
                 title="Over Two Decades of Maritime & Air Freight Excellence"
                 highlightWord="Excellence"
-                description="Founded in 2004, Vanguard Global Logistics has grown from a regional Rotterdam ship declarant into an international multimodal supply chain power. We manage over 2.8 million TEUs annually across 150+ countries with licensed customs accuracy."
+                description="Founded in 2004, Tenar Global Logistics has grown from a regional Rotterdam ship declarant into an international multimodal supply chain power. We manage over 2.8 million TEUs annually across 150+ countries with licensed customs accuracy."
                 className="mb-8"
               />
 

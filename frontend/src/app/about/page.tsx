@@ -84,7 +84,7 @@ export default function AboutPage() {
             Building the World's Most <span className="bg-gradient-to-r from-[#F5804B] to-[#B4A7F0] bg-clip-text text-transparent">Reliable</span> Import & Export Corridor
           </h1>
           <p className="text-base md:text-lg text-[#5B6272] max-w-3xl leading-relaxed">
-            Vanguard Global Logistics orchestrates complex international supply chains through regulatory precision, contracted vessel capacity, and specialized customs-bonded facilities.
+            Tenar Global Logistics orchestrates complex international supply chains through regulatory precision, contracted vessel capacity, and specialized customs-bonded facilities.
           </p>
         </div>
 
