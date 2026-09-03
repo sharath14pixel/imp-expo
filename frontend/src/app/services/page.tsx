@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import { usdToInr } from "@/utils/currency";
 import SectionHeading from "@/components/ui/SectionHeading";
 import HighlightCard from "@/components/ui/HighlightCard";
 import { SERVICES_DATA, ServiceItem } from "@/data/services";
@@ -66,7 +67,7 @@ export default function ServicesPage() {
     }
 
     setEstResult({
-      cost: `$${baseCost.toLocaleString()}`,
+      cost: usdToInr(baseCost),
       transit: days,
     });
   };
