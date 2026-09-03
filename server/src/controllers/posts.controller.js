@@ -17,6 +17,7 @@ exports.getPosts = async (req, res, next) => {
 
     res.status(200).json({
       success: true,
+      message: 'Posts fetched successfully',
       count: posts.length,
       pagination: {
         total,
@@ -44,6 +45,7 @@ exports.getPostBySlug = async (req, res, next) => {
 
     res.status(200).json({
       success: true,
+      message: 'Post fetched successfully',
       data: post,
     });
   } catch (error) {
@@ -60,6 +62,7 @@ exports.createPost = async (req, res, next) => {
 
     res.status(201).json({
       success: true,
+      message: 'Post created successfully',
       data: post,
     });
   } catch (error) {
