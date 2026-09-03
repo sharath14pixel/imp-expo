@@ -1,13 +1,9 @@
 const mongoose = require('mongoose');
 
 const ApplicationSchema = new mongoose.Schema({
-  jobId: {
+  name: {
     type: String,
-    required: [true, 'Please add a Job ID'],
-  },
-  fullName: {
-    type: String,
-    required: [true, 'Please add full name'],
+    required: [true, 'Please add a name'],
     trim: true,
   },
   email: {
@@ -18,23 +14,18 @@ const ApplicationSchema = new mongoose.Schema({
       'Please add a valid email',
     ],
   },
-  phone: {
+  role: {
     type: String,
-    required: [true, 'Please add a phone number'],
+    required: [true, 'Please add the role applied for'],
+  },
+  message: {
+    type: String,
   },
   resumeUrl: {
     type: String,
     required: [true, 'Resume URL is required'],
   },
-  coverLetter: {
-    type: String,
-  },
-  status: {
-    type: String,
-    enum: ['pending', 'reviewed', 'interviewed', 'rejected', 'hired'],
-    default: 'pending',
-  },
-  appliedAt: {
+  createdAt: {
     type: Date,
     default: Date.now,
   },

@@ -7,45 +7,31 @@ const env = require('../config/env');
 // @access  Public
 exports.submitContact = async (req, res, next) => {
   try {
-    const { name, email, company, subject, message } = req.body;
+    const { name, email, company, message } = req.body;
 
     const contact = await Contact.create({
       name,
       email,
       company,
-      subject,
       message,
     });
 
-    // Optionally send email notification to admin
-    /*
-    await sendEmail({
-      email: env.emailUser,
-      subject: `New Contact Request: ${subject}`,
-      message: `You have received a new message from ${name} (${email}).\n\nCompany: ${company}\nMessage:\n${message}`,
-    });
-    */
+    try {
+      await sendEmail({
+        email: 'your_verified_email@example.com', // Admin email to receive notifications
+        subject: `New Contact Request from ${name}`,
+        html: `<p>You have received a new message from <strong>${name}</strong> (${email}).</p>
+               <p><strong>Company:</strong> ${company || 'N/A'}</p>
+               <p><strong>Message:</strong><br/>${message}</p>`,
+      });
+    } catch (err) {
+      console.error('Failed to send notification email', err);
+    }
 
     res.status(201).json({
       success: true,
+      message: 'Contact request submitted successfully',
       data: contact,
-    });
-  } catch (error) {
-    next(error);
-  }
-};
-
-// @desc    Get all contact messages
-// @route   GET /api/contact
-// @access  Private/Admin
-exports.getContacts = async (req, res, next) => {
-  try {
-    const contacts = await Contact.find().sort({ createdAt: -1 });
-
-    res.status(200).json({
-      success: true,
-      count: contacts.length,
-      data: contacts,
     });
   } catch (error) {
     next(error);

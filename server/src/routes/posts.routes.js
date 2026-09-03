@@ -1,6 +1,6 @@
 const express = require('express');
 const { body } = require('express-validator');
-const { getPosts, getPost, createPost } = require('../controllers/posts.controller');
+const { getPosts, getPostBySlug, createPost } = require('../controllers/posts.controller');
 const validate = require('../middleware/validate');
 
 const router = express.Router();
@@ -11,16 +11,16 @@ router
   .post(
     [
       body('title').notEmpty().withMessage('Title is required'),
+      body('slug').notEmpty().withMessage('Slug is required'),
+      body('excerpt').notEmpty().withMessage('Excerpt is required'),
       body('content').notEmpty().withMessage('Content is required'),
-      body('author').notEmpty().withMessage('Author is required'),
-      body('category').notEmpty().withMessage('Category is required'),
     ],
     validate,
     createPost
   );
 
 router
-  .route('/:id')
-  .get(getPost);
+  .route('/:slug')
+  .get(getPostBySlug);
 
 module.exports = router;

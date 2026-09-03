@@ -5,34 +5,32 @@ const PostSchema = new mongoose.Schema({
     type: String,
     required: [true, 'Please add a title'],
     trim: true,
-    maxlength: [100, 'Title cannot be more than 100 characters'],
+  },
+  slug: {
+    type: String,
+    required: [true, 'Please add a slug'],
+    unique: true,
+    trim: true,
+  },
+  excerpt: {
+    type: String,
+    required: [true, 'Please add an excerpt'],
   },
   content: {
     type: String,
     required: [true, 'Please add content'],
   },
-  author: {
+  tag: {
     type: String,
-    required: [true, 'Please add an author'],
   },
-  category: {
-    type: String,
-    required: [true, 'Please add a category'],
-    enum: ['News', 'Insights', 'Company Updates', 'Press Release'],
-  },
-  tags: {
-    type: [String],
+  date: {
+    type: Date,
+    default: Date.now,
   },
   imageUrl: {
     type: String,
     default: 'no-photo.jpg',
-  },
-  publishedAt: {
-    type: Date,
-    default: Date.now,
-  },
-}, {
-  timestamps: true
+  }
 });
 
 module.exports = mongoose.model('Post', PostSchema);

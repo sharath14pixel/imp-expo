@@ -1,32 +1,38 @@
 const errorHandler = (err, req, res, next) => {
   let error = { ...err };
   error.message = err.message;
-
-  // Log to console for dev
-  console.error(err);
+  
+  const response = {
+    success: false,
+    message: 'Server Error'
+  };
 
   // Mongoose bad ObjectId
   if (err.name === 'CastError') {
-    const message = `Resource not found with id of ${err.value}`;
-    error = { message, statusCode: 404 };
+    response.message = `Resource not found`;
+    return res.status(404).json(response);
   }
 
   // Mongoose duplicate key
   if (err.code === 11000) {
-    const message = 'Duplicate field value entered';
-    error = { message, statusCode: 400 };
+    response.message = 'Duplicate field value entered';
+    return res.status(400).json(response);
   }
 
   // Mongoose validation error
   if (err.name === 'ValidationError') {
-    const message = Object.values(err.errors).map(val => val.message).join(', ');
-    error = { message, statusCode: 400 };
+    const errors = {};
+    Object.values(err.errors).forEach(val => {
+      errors[val.path] = val.message;
+    });
+    
+    response.message = 'Validation failed';
+    response.errors = errors;
+    return res.status(400).json(response);
   }
 
-  res.status(error.statusCode || 500).json({
-    success: false,
-    error: error.message || 'Server Error'
-  });
+  response.message = error.message || 'Server Error';
+  res.status(error.statusCode || 500).json(response);
 };
 
 module.exports = errorHandler;
