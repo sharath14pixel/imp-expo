@@ -81,7 +81,7 @@ export const Navbar = () => {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
             <div className="w-10 h-10 bg-[#101828] text-white rounded-lg flex items-center justify-center font-extrabold text-xl tracking-tighter group-hover:bg-[#E86A3C] transition-colors duration-300 shadow-sm">
-              VG
+              TG
             </div>
             <div>
               <span className="text-lg font-extrabold text-[#101828] tracking-tight block leading-tight">

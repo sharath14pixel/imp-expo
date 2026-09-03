@@ -25,7 +25,7 @@ export const Footer = () => {
           <div className="lg:col-span-2 pr-0 lg:pr-6">
             <Link href="/" className="flex items-center gap-3 mb-4 group">
               <div className="w-10 h-10 bg-[#E86A3C] text-white rounded-lg flex items-center justify-center font-extrabold text-xl tracking-tighter shadow-sm">
-                VG
+                TG
               </div>
               <div>
                 <span className="text-xl font-extrabold text-white tracking-tight block leading-tight">

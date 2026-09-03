@@ -54,7 +54,7 @@ export const QuoteModal: React.FC<QuoteModalProps> = ({
     // Simulate API network request
     await new Promise((resolve) => setTimeout(resolve, 1200));
     
-    const randomRef = `VGL-Q${Math.floor(100000 + Math.random() * 900000)}`;
+    const randomRef = `TGL-Q${Math.floor(100000 + Math.random() * 900000)}`;
     setReferenceNo(randomRef);
     setIsSubmitting(false);
     setIsSuccess(true);
