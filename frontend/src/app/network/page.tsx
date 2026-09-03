@@ -34,7 +34,7 @@ export default function GlobalNetworkPage() {
   return (
     <div className="bg-[#F4F5FB] min-h-screen py-12 md:py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Page Header */}
         <div className="mb-14">
           <span className="text-xs font-extrabold uppercase tracking-widest text-[#E86A3C] block mb-2">
@@ -63,11 +63,10 @@ export default function GlobalNetworkPage() {
               <button
                 key={office.id}
                 onClick={() => setSelectedHub(office)}
-                className={`px-5 py-2.5 rounded-lg text-xs font-extrabold uppercase tracking-wider transition-all shrink-0 cursor-pointer ${
-                  selectedHub.id === office.id
-                    ? "bg-[#101828] text-white shadow-sm"
-                    : "bg-[#F4F5FB] text-[#5B6272] hover:bg-[#E5E7EB]"
-                }`}
+                className={`px-5 py-2.5 rounded-lg text-xs font-extrabold uppercase tracking-wider transition-all shrink-0 cursor-pointer ${selectedHub.id === office.id
+                  ? "bg-[#101828] text-white shadow-sm"
+                  : "bg-[#F4F5FB] text-[#5B6272] hover:bg-[#E5E7EB]"
+                  }`}
               >
                 {office.city} ({office.country})
               </button>
@@ -76,7 +75,7 @@ export default function GlobalNetworkPage() {
 
           {/* Hub Detail Panel Grid */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-            
+
             {/* Left Hub Spec Card */}
             <div className="lg:col-span-7 bg-[#F4F5FB] border border-[#E5E7EB] rounded-xl p-6 md:p-8">
               <div className="flex items-center justify-between gap-4 mb-4">
@@ -187,7 +186,7 @@ export default function GlobalNetworkPage() {
           />
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-            
+
             <div className="lg:col-span-5 space-y-4">
               <div>
                 <label className="block text-xs font-extrabold uppercase tracking-wider text-[#101828] mb-1">
@@ -198,7 +197,7 @@ export default function GlobalNetworkPage() {
                   onChange={(e) => setLaneOrigin(e.target.value)}
                   className="w-full px-3.5 py-2.5 bg-[#F4F5FB] border border-[#E5E7EB] rounded-lg text-sm text-[#101828] font-bold"
                 >
-                  <option value="Rotterdam">Rotterdam EMEA HQ (Netherlands)</option>
+                  <option value="India">India Control Tower (India)</option>
                   <option value="Shanghai">Shanghai Greater China Hub (China)</option>
                   <option value="Houston">Houston Americas Hub (USA)</option>
                   <option value="Singapore">Singapore APAC Control Tower</option>
@@ -217,7 +216,7 @@ export default function GlobalNetworkPage() {
                 >
                   <option value="Singapore">Singapore APAC Control Tower</option>
                   <option value="Rotterdam">Rotterdam EMEA HQ (Netherlands)</option>
-                  <option value="Houston">Houston Americas Hub (USA)</option>
+                  <option value="USA">United States of America (USA)</option>
                   <option value="Dubai">Dubai MEA Hub (UAE)</option>
                   <option value="Shanghai">Shanghai Greater China Hub (China)</option>
                 </select>
